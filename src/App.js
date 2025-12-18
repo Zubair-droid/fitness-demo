@@ -121,13 +121,13 @@ function App() {
             We only take 5 new clients per month to ensure quality.
           </p>
           
-          <a 
+          <button 
             href="#" 
             className="inline-flex items-center gap-3 bg-green-500 hover:bg-green-400 text-black font-bold text-xl py-5 px-12 rounded-full transition-all shadow-lg hover:shadow-green-500/20"
           >
             <Phone size={24} />
             Chat on WhatsApp
-          </a>
+          </button>
           <p className="mt-6 text-sm text-slate-500">No pressure call. Let's discuss your goals.</p>
         </div>
       </section>
