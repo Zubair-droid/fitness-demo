@@ -19,7 +19,7 @@ import './App.css';
         </a>
       </header> }*/
 
-import { CheckCircle, Instagram, Phone, ArrowRight, Star } from 'lucide-react';
+import { CheckCircle, Phone, ArrowRight, Star } from 'lucide-react';
 
 // ==========================================
 // ⚡️ EDIT THIS SECTION FOR EACH CLIENT
@@ -135,7 +135,7 @@ function App() {
       {/* Simple Footer */}
       <footer className="py-8 text-center text-slate-600 border-t border-slate-900">
         <div className="flex justify-center gap-6 mb-4">
-          <Instagram className="cursor-pointer hover:text-white transition-colors" />
+          {/* <Instagram className="cursor-pointer hover:text-white transition-colors" /> */}
         </div>
         <p>© 2025 {config.trainerName}. All rights reserved.</p>
       </footer>
