@@ -225,7 +225,6 @@ function App() {
                     </a> */}
                 <a
                     href={whatsappLink}
-                    
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex bg-green-500 hover:bg-green-400 text-black font-bold py-4 px-10 rounded-full items-center gap-2"
@@ -244,6 +243,7 @@ function App() {
                 <div className="max-w-4xl mx-auto px-6 h-[400px] rounded-2xl overflow-hidden border border-slate-800 shadow-2xl">
                     {/* PASTE THE GOOGLE MAP IFRAME HERE */}
                     <iframe
+                        title='Location'
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3713.9237490417427!2d78.13095537481905!3d11.676587088532314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babf12398dd8fa5%3A0xc0c6b382895c0aff!2sI%20Fitness%20Gym!5e1!3m2!1sen!2sin!4v1767031440147!5m2!1sen!2sin" // <-- Paste his map link here
                         width="100%"
                         height="100%"
@@ -252,7 +252,7 @@ function App() {
                     ></iframe>
 
 
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3713.9237490417427!2d78.13095537481905!3d11.676587088532314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babf12398dd8fa5%3A0xc0c6b382895c0aff!2sI%20Fitness%20Gym!5e1!3m2!1sen!2sin!4v1767031440147!5m2!1sen!2sin" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    
                 </div>
 
                 <p className="mt-6 text-slate-400 text-lg w-4/5 m-auto">
